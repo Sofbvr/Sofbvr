@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Book a Call</title>
+</head>
+<body>
+
+
+<!-- inicio de menu --> 
+  <!-- inicio de menu --> 
+  <div class="contenedorMenu">
+    <div class="menu">
+        
+            <div class="menu__logo"></div>
+
+            <nav class="listaMenu">
+
+            <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about_us.html">About us</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./resources.html">Resources</a></li>
+            <li><a id="rojo" href="#">Book a Call!</a></li>
+            </ul>
+
+            </nav>
+
+    </div> 
+
+
+</div>  
+    <!-- fin de menu --> 
+
+  
+
+    <!-- formu book a call -->
+	<section>
+        <fieldset>
+            <legend>Complete the form</legend>
+			<form action="formulario_book_a_call" method="post" enctype="text/plain">
+
+                <label for="name">Name</label><br>
+				<input type="text" placeholder="Your name here" required><br>
+
+                <label for="company_name">Company Name</label><br>
+				<input type="text" placeholder="Your Company Name here" required><br>
+
+				<label for="email">Email</label><br>
+					<input type="email" name="email" required><br>
+
+                <label for="service">In which service you are interested at?</label><br>
+				<select name="service" id="service" required> 
+					<option value="content_and_strategy">Content & Strategy</option>
+					<option value="tech_and_support">Tech Support</option>
+					<option value="data_analysis">Data Analysis</option>
+				</select><br>
+				
+				<label for="details">How we can help you?</label><br>
+					<textarea placeholder="Give us more details on how we can help you." rows="4" cols="40"></textarea><br>
+
+                <label for="call">Book a call!</label><br>
+                <input type="datetime-local" id="date" name="date" min="2022-07-18T9:00" max="3050-07-25T17:00"><br>
+               
+				
+				<label for="newsletter">Do you want to subscribre to our Newsletter?</label><br>
+				<input type="checkbox" name="acepta" value="1">
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</form>
+
+        </fieldset>    
+	</section>
+	<!-- cierre de form book a call -->
+	
+
+    <!-- inicio de footer  --> 
+    <footer>
+        <div class="contenedor__footer">
+
+
+
+                <div class="startNow">
+
+                    <h2>Start Today!</h2>
+                    <h3>Your business amplified</h3>
+                    <p>If you’re ready for an intelligent, intentional email marketing strategy, our team is here to help you maximize the ROI potential of your email list. </p>
+        
+                    <div class="botonRojo"><a href="./pages/book_a_call.html">Book a Call</a></div>
+                     <div class="botonBlanco"><a href="http://www.youtube.com">Watch The Video</a></div>
+        
+                </div>
+
+                <div class="imagenFooter">
+                    <div class="imagenFooter_1"></div>
+                </div>
+                
+
+                <div class="datos">
+                        <div class="datosContacto">
+
+                            <h4>to Reach Us:</h4> 
+                            <h5>E-mail: info@entreprov.com</h5>
+                            <br>
+
+                            <h4>Business time:</h4>
+                            <h5>Mon. – Fri. 09:00 - 5:00 PST</h5>
+
+
+
+
+                        </div>
+
+                        <div class="inputNewsletter">
+                        <label for="email">Subscribe to our Newsletter</label><br><br>
+                        <input type="email" name="email" size="35px">
+
+                        </div>
+
+                </div>        
+                
+
+
+        </div>
+
+       
+
+    </footer>
+     <!-- fin de footer --> 
+
+</body>
+</html>

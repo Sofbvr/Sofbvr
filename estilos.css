@@ -1,0 +1,1499 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Muli', Arial, Helvetica, sans-serif;
+    
+
+}
+
+
+
+/*    ---------------- inicio menu mobile ------------------ */
+.contenedorMenu {
+
+    width: 100%;
+    margin-top: 20px;
+}
+
+.menu__logo {
+
+    height: 70px;
+    width: 100%;
+    background-image: url(./images/logo_Entreprov_final_Entreprov-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: solid #0B79B7 2px;
+    border-bottom: solid #0B79B7 2px;
+    
+
+
+}
+
+nav {
+
+    width: 100%;
+    height: 280px;
+    text-align: center;
+}
+
+nav ul li{
+
+    list-style: none;
+   border-bottom: solid #0B79B7 1px;
+
+
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+
+
+}
+
+.rojo a{
+
+    text-decoration: none;
+    color: #D11A21;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+
+
+/*    ---------------- fin menu mobile ------------------ */
+
+
+/*    ---------------- inicio introduccion contenido moBILE ------------------ */
+
+.contenedor_principal{
+    height: auto;
+    width: 100%;
+ 
+    
+}
+
+.home-header {
+
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#imagenPrincipal{
+
+    height: 250px;
+    width: 100%;
+    background-image: url(./images/homepage/home_main_image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.home-header .textos{
+    padding-top: 20px;
+
+}
+
+.barraLogos {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.logo {
+
+    height: 35px;
+    width: 100%; 
+    margin-top: 30px;
+    display: grid;
+}
+
+.Cliente1 {
+
+
+    background-image: url(./images/homepage/tespo-logo-nav-01\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+}
+   
+
+
+.Cliente2 {
+
+
+    background-image: url(./images/homepage/shirtmax-logo_large\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+    
+}
+
+
+.Cliente3 {
+
+    background-image: url(./images/homepage/svs.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+
+
+.Cliente4 {
+
+    background-image: url(./images/homepage/fresh-victor-red_1\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+
+
+
+
+
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #0B79B7;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #0B79B7;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+    line-height: auto;
+}
+
+
+
+
+.callToAction a {
+
+    width: 100%;
+    height: 200px;
+
+   
+    
+}
+
+.botonRojo {
+
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #D11A21;
+    margin-top: 40px;
+        
+}
+
+
+.botonRojo a
+{text-decoration: none;
+color: #fff;}
+
+
+
+.botonRojo:hover {
+
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #0B79B7;
+    margin-top: 40px;
+        
+}
+
+.botonBlanco a
+{text-decoration: none;
+color: #D11A21;}
+
+
+.botonBlanco {
+
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding-top: 8px;
+    background-color: #ffffff;
+    border: 2px solid #D11A21;
+    margin-top: 40px;
+        
+}
+
+
+.botonBlanco:hover {
+
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding-top: 8px;
+    background-color: #0B79B7;
+    margin-top: 40px;
+        
+}
+
+.sombra {
+
+    height: 10px;
+    width: 100%;
+    box-shadow: 0px 5px 4px #cbcbcb;
+}
+
+
+/*    ---------------- fin introduccion contenido Mobile ------------------ */
+
+
+
+
+/*    ---------------- inicio We’re a Team of Problem-Solvers mobile ------------------ */
+
+
+
+.imagenDeFondoAmarilla {
+
+    
+    height: 100%;
+    background-position: top;
+    background-position-y: 30px ;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-image: url("./images/homepage/bg_yellow_problem_solvers.png");
+
+
+
+}
+
+.contenedorBase2
+
+{
+
+    width: 100%;
+    height: auto;
+    margin: auto;  
+    display: grid;
+    justify-items: center;
+
+
+
+}
+
+.tituloServicios {
+
+    height: 100px;
+    width: 100%;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+
+.contenedorCard {
+
+    width: 320px;
+    display: grid;
+    gap: 20px;
+
+}
+.card {
+
+
+    background-color: #fff;
+    width: 250px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+    box-shadow: 0px 0px 8px #d1d1d1;
+    margin: auto;
+    
+}
+
+
+
+.contenedor__icono1 {
+    height: 100px;
+    width: 100%;
+    background-image: url(./images/homepage/content_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.contenedor__icono2 {
+    height: 100px;
+    width: 100%;
+    background-image: url(./images/homepage/tech_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.contenedor__icono3 {
+    height: 90px;
+    width: 100%;
+    background-image: url(./images/homepage/data_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+
+
+
+
+
+/*   ---------------- fin We’re a Team of Problem-Solvers Mobile ------------------ */
+
+
+/*   ---------------- Client Say Mobile ------------------ */
+
+
+.imagenDeFondoRoja {
+
+    height: 100%;
+    background-position: right;
+    background-position-y: 30px ;
+    border-top: 2px solid #D11A21 ;
+    border-bottom: 2px solid #D11A21 ;
+    margin-top: 40px;
+    
+  
+}
+
+.contenedorBase3 {
+
+    width: 100%;
+    height: 500px;
+}
+
+.headerTestimonio {
+
+    height: 100px;
+    width: auto;
+    margin: 20px;
+}
+
+.contenedor_testimonio {
+
+    padding-top: 20px ;
+    display: grid;
+    justify-items: center;
+}
+
+.textoTestimonio {
+    text-align: center;
+    padding: 20px;
+}
+
+.imagenTestimonio{
+    height: 100px;
+    width: 100px;
+    background-image: url(./images/homepage/louis_katsaros.png);
+    background-size: cover;
+}
+
+
+
+/* inicio footer mobile*/
+
+.contenedor__footer {
+
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    padding-top: 20px;
+
+  
+}
+
+.imagenFooter {
+
+    height: auto;
+    width: 100%;
+
+}
+
+.imagenFooter_1 {
+
+    height: 330px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-image: url(./images/homepage/alex_footer.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.datos {
+
+    width: 100%;
+    padding: 20px;
+    background-color: #0B79B7;
+}
+
+
+
+.datosContacto {
+
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+
+.inputNewsletter{
+
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+
+.startNow {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+
+
+/*inicio ABOUT US MOBILE*/
+
+.contenedor_paginas {
+    width: 100%;
+    height: auto;
+    margin: auto;  
+    display: grid;
+    justify-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.contenedor__icono4 {
+    height: 100px;
+    width: 100%;
+    margin-top: ;
+    background-image: url(./images/about_us/Groupiconos_about.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.contenedor__icono5 {
+    height: 100px;
+    width: 100%;
+    background-image: url(./images/about_us/Frameiconos_about-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.contenedor__icono6 {
+    height: 90px;
+    width: 100%;
+    background-image: url(./images/about_us/Frameiconos_about.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+    
+/* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*/
+/* INICIO TABLET*/
+/* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*/
+/* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*//* INICIO TABLET*/
+
+ 
+@media only screen and (min-width:600px) and (max-width:768px){ 
+
+/*    ---------------- inicio introduccion contenido TABLET ------------------ */
+
+
+
+
+#imagenPrincipal{
+
+    height: 350px;
+    width: 100%;
+    background-image: url(./images/homepage/home_main_image.png);
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+
+
+.barraLogos {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+
+}
+
+
+.logo {
+
+    height: 35px;
+    width: 100px; 
+
+}
+
+.Cliente1 {
+
+
+    background-image: url(./images/homepage/tespo-logo-nav-01\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+}
+   
+
+
+.Cliente2 {
+
+
+    background-image: url(./images/homepage/shirtmax-logo_large\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+
+    
+}
+
+
+.Cliente3 {
+
+    background-image: url(./images/homepage/svs.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+}
+
+
+
+
+.Cliente4 {
+
+    background-image: url(./images/homepage/fresh-victor-red_1\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+}
+
+.Cliente1:hover {
+
+
+    background-image: url(./images/homepage/tespo-logo-nav-01\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+
+
+}
+   
+
+
+.Cliente2:hover {
+
+
+    background-image: url(./images/homepage/shirtmax-logo_large\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+
+
+    
+}
+
+
+.Cliente3:hover {
+
+    background-image: url(./images/homepage/svs.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+
+}
+
+
+
+
+.Cliente4:hover {
+
+    background-image: url(./images/homepage/fresh-victor-red_1\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+
+}
+
+
+/*    ---------------- inicio We’re a Team of Problem-Solvers TABLET ------------------ */
+
+
+
+.imagenDeFondoAmarilla {
+
+    
+    height: 100%;
+    background-position: top;
+    background-position-y: 30px ;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-image: url("./images/homepage/bg_yellow_problem_solvers.png");
+
+
+
+}
+
+.contenedorBase2
+
+{
+
+    width: 100%;
+    height: auto;
+    margin: auto;  
+    display: grid;
+
+}
+
+.tituloServicios {
+
+    height: 100px;
+    width: 100%;
+   margin-top: 60px;
+
+}
+
+
+
+.contenedorCard {
+
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    padding-bottom: 50px;
+
+}
+.card {
+
+
+    background-color: #fff;
+    width: 500px;
+    height: 230px;
+    border-radius: 20px;
+    padding: 30px 20px 0px 20px;
+    box-shadow: 0px 0px 8px #d1d1d1;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+.card p {
+    text-align: left;
+}
+
+.card h2 {
+    text-align: left;
+}
+
+
+.contenedor_der {
+    height: 90%;
+    width: 130px;
+  
+}
+
+.titulo_card{
+
+    width: 130px;
+    height: auto;
+
+}
+
+
+.contenedor__icono1 {
+    height: 100px;
+    width: 100%;
+    background-image: url(./images/homepage/content_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    align-self: center;
+
+
+}
+
+.contenedor__icono2 {
+    height: 100px;
+    width: 100%;
+    background-image: url(./images/homepage/tech_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.contenedor__icono3 {
+    height: 90px;
+    width: 100%;
+    background-image: url(./images/homepage/data_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.card a {
+    color: #D11A21;
+}
+
+
+/*   ---------------- fin We’re a Team of Problem-Solvers TABLET ------------------ */
+
+/*   ---------------- inicio Client Say Tablet ------------------ */
+
+
+.imagenDeFondoRoja {
+
+    height: 100%;
+    background-position: right;
+    background-position-y: 30px ;
+    border-top: 2px solid #D11A21 ;
+    border-bottom: 2px solid #D11A21 ;
+    margin-top: 40px;
+  
+  
+}
+
+
+
+.textoTestimonio {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+
+/*   ---------------- fin Client Say Tablet ------------------ */
+
+/* inicio footer TABLET*/
+
+.imagenFooter{
+
+    height: auto;
+    width: 100%;
+
+
+}
+.imagenFooter_1 {
+
+    height: 450px;
+    width: 100%;
+    background-image: url(./images/homepage/alex_footer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.startNow {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+.datos {
+    background-color: #0B79B7;
+    height: auto;
+    width: 100%;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.datosContacto {
+
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+
+.inputNewsletter{
+
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+
+/* FIN footer TABLET*/
+
+}
+
+
+
+
+/* -------------------  INICIO DESKTOP --------------------------- */
+/* -------------------  INICIO DESKTOP --------------------------- */
+/* -------------------  INICIO DESKTOP --------------------------- */
+/* -------------------  INICIO DESKTOP --------------------------- */
+    
+@media only screen and (min-width:1024px) {
+
+/* inicia menu desktop*/
+
+
+
+
+
+/* fin menu desktop*/
+
+.contenedorMenu {
+
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    border-top: solid #0B79B7 2px;
+    border-bottom: solid #0B79B7 2px;
+    
+
+}
+
+.menu {
+
+    width: 80%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+    border: none;
+    
+   
+}
+
+.menu__logo {
+
+    height: 94px ;
+    background-image: url(./images/logo_Entreprov_final_Entreprov-logo.png);
+    border: none;
+
+}
+
+
+
+
+nav ul li{
+    height: 60px;
+    width: auto;
+    list-style: none;
+    display: inline-block;
+    justify-items: center;
+    padding-left: 10px;
+    padding-top: 20px;
+    border: none;
+
+
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    font-size: 20px;
+    
+
+
+}
+
+
+#rojo {
+
+    text-decoration: none;
+    color: #D11A21;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+
+
+#rojo:hover {
+
+    text-decoration: none;
+    color: #0B79B7;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: normal;
+    text-decoration: underline;
+
+
+}
+
+/*    ---------------- inicio introduccion contenido ------------------ */
+
+.contenedor_principal{
+    height: 70%vh;
+    width: 80%;
+    margin: auto;  
+    display: grid;
+    grid-template-areas: 
+    "header header imagenhome imagenhome"
+    "logo1 logo2 logo3 logo4";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 450px 100px;
+
+
+    
+}
+
+.home-header {
+
+    grid-area: header;
+    height: auto;
+
+}
+
+#imagenPrincipal{
+    grid-area: imagenhome;
+    height: 100%;
+    background-image: url(./images/homepage/home_main_image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.home-header .textos{
+    padding-top: 50px;
+
+}
+
+.barraLogos {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+
+
+}
+
+.logo {
+
+    height: 60px;
+    width: 100%; 
+    margin-top: 30px;
+
+
+
+}
+
+
+.Cliente1:hover {
+
+    background-image: url(./images/homepage/tespo-logo-nav-01\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+     transform: scale(1.1 );
+    transition: all 0.5s;
+ 
+ }
+
+
+
+
+ .Cliente2:hover{
+
+
+    background-image: url(./images/homepage/shirtmax-logo_large\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+
+
+    
+}
+
+
+.Cliente3:hover {
+
+    background-image: url(./images/homepage/svs.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+
+}
+
+
+
+
+.Cliente4:hover {
+
+    background-image: url(./images/homepage/fresh-victor-red_1\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+    color: #0B79B7;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #0B79B7;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+    line-height: auto;
+}
+
+
+.imagenDeFondoAmarilla {
+
+    
+    height: 100%;
+    background-position: left;
+    background-position-y: 30px ;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-image: url("./images/homepage/bg_yellow_problem_solvers.png");
+
+
+
+}
+
+.contenedorBase2
+
+{
+
+    width: 100%;
+    height: auto;
+    margin: auto;  
+
+
+
+}
+
+.tituloServicios {
+
+    height: 100px;
+    width: 100%;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+
+.contenedorCard {
+
+    width: 80%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+
+}
+.card {
+
+
+    background-color: #fff;
+    width: 250px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+    box-shadow: 0px 0px 8px #d1d1d1;
+    margin: auto;
+    
+}
+
+
+
+.contenedor__icono1 {
+    height: 100px;
+    width: 100%;
+    background-image: url(./images/homepage/content_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.contenedor__icono2 {
+    height: 100px;
+    width: 100%;
+    background-image: url(./images/homepage/tech_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.contenedor__icono3 {
+    height: 90px;
+    width: 100%;
+    background-image: url(./images/homepage/data_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+
+/*    ---------------- Inicio What Our Clients Say ------------------ */
+
+.imagenDeFondoRoja {
+
+    
+    height: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-image: url("./images/homepage/bg_red_clients.png");
+    border: none;
+
+
+
+}
+
+.contenedorBase3 {
+
+ 
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+
+
+.contenedor_testimonio{
+
+    display: grid;
+    grid-template-areas: 
+    "headertestimonio imagenlouis textoTestimonio";
+    grid-template-columns: 1.5fr 60px 1fr;
+
+}
+
+.headerTestimonio {
+
+    grid-area: headertestimonio;
+    margin: auto;
+
+}
+
+.imagenTestimonio{
+
+    height: auto;
+    width: 60px;
+    grid-area: imagenlouis;
+    background-image: url(./images/homepage/louis_katsaros.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+
+.textoTestimonio{
+
+    grid-area: textoTestimonio;
+    margin: auto;
+
+
+}
+
+
+.textoTestimonio p{
+
+    text-align: left;
+    margin-left: 30px;
+
+
+}
+
+.textoTestimonio h4{
+
+    text-align: left;
+    margin-left: 30px;
+
+
+}
+
+.card p a {
+  
+    color: #D11A21;
+}
+
+
+
+/*    ---------------- Inicio footer ------------------ */
+
+.contenedor__footer
+
+{
+
+    height: 100%;
+    width: 80%;
+    margin: auto;  
+    display: grid;
+    grid-template-areas: 
+    "item1 item2"
+    "item3 item3";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 200px;
+
+
+
+}
+
+
+.imagenFooter {
+
+    width: 100%;
+    height: auto;
+    grid-area: item1;
+
+}
+
+
+.imagenFooter_1 {
+
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/homepage/alex_footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+    
+}
+
+
+
+.datos {
+
+    width: 100%;
+    padding: 20px;
+    background-color: #0B79B7;
+    grid-area: item3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.datosContacto {
+
+    width: 100%;
+    height: auto;
+    color: #fff;
+
+}
+
+.inputNewsletter{
+
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background-color: le;
+}
+
+
+.startNow {
+
+    width: 100%;
+    height: auto;
+    margin: auto ;
+    padding-left: 30px;
+    padding-right: 30px;
+    grid-area: item2;
+
+    
+}
+
+
+
+
+/*    ---------------- Fin footer ------------------ */
+
+.contenedor_paginas{
+
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+
+}
+.contenedor_header{
+
+    width: 100%;
+    height: 500px;
+
+}
+
+.contenedor_imagen_about_us {
+
+    
+
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/about_us/who_we_are_mainaboutus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+
+
+    
+}
+
+.contenedorBase2
+
+{
+
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+
+
+
+
+}
+
+.contenedorBase4
+
+{
+
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 1fr;
+
+
+
+
+}
+
+}
