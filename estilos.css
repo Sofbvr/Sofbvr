@@ -10,6 +10,7 @@
 
 
 /*    ---------------- inicio menu mobile ------------------ */
+
 .contenedorMenu {
 
     width: 100%;
@@ -98,6 +99,26 @@ nav ul li a{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+   
+
+}
+
+@keyframes fadeIn{
+
+    0%{
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+
+
 
 }
 
@@ -302,9 +323,24 @@ color: #D11A21;}
     background-repeat: no-repeat;
     background-size: 400px;
     background-image: url("./images/homepage/bg_yellow_problem_solvers.png");
+    animation-name: amarillo;
+    animation-duration: 5s;
 
+}
 
+@keyframes amarillo {
+    0%{
+        transform: translateX(-500px);
+        opacity: 0;
 
+    }
+
+    100%{
+
+        transform: translateX(0px);
+        opacity: 1;
+
+    }
 }
 
 .contenedorBase2
@@ -365,6 +401,19 @@ color: #D11A21;}
 
 }
 
+.contenedor__icono1:hover {
+    height: 100px;
+    width: 100%;
+    background-image: url(./images/homepage/content_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+
 .contenedor__icono2 {
     height: 100px;
     width: 100%;
@@ -375,6 +424,18 @@ color: #D11A21;}
 
 }
 
+.contenedor__icono2:hover {
+    height: 100px;
+    width: 100%;
+    background-image: url(./images/homepage/tech_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
 .contenedor__icono3 {
     height: 90px;
     width: 100%;
@@ -382,6 +443,18 @@ color: #D11A21;}
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+
+}
+
+.contenedor__icono3:hover {
+    height: 90px;
+    width: 100%;
+    background-image: url(./images/homepage/data_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1);
+    transition: all 0.5s;
 
 }
 
@@ -405,8 +478,26 @@ color: #D11A21;}
     border-top: 2px solid #D11A21 ;
     border-bottom: 2px solid #D11A21 ;
     margin-top: 40px;
+    animation-name: rojo;
+    animation-duration: 5s;
     
   
+}
+
+
+@keyframes rojo {
+    0%{
+        transform: translateX(500px);
+        opacity: 0;
+
+    }
+
+    100%{
+
+        transform: translateX(0px);
+        opacity: 1;
+
+    }
 }
 
 .contenedorBase3 {
@@ -508,6 +599,17 @@ color: #D11A21;}
 
 
 /*inicio ABOUT US MOBILE*/
+
+.imagenDeFondoColores {
+    height: 100%;
+    background-repeat: repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-image: url(./images/about_us/fondo_colores.png);
+    animation-name: amarillo;
+    animation-duration: 5s;
+    
+}
 
 .contenedor_paginas {
     width: 100%;
@@ -802,6 +904,8 @@ color: #D11A21;}
 
 
 }
+
+
 
 .contenedor__icono2 {
     height: 100px;
@@ -1205,6 +1309,7 @@ p {
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
 
+
 }
 .card {
 
@@ -1476,8 +1581,12 @@ p {
     display: flex;
 
 
+}
 
+.video:hover {
 
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 .contenedorBase4
@@ -1494,6 +1603,17 @@ p {
 
 
 
+}
+
+.imagenDeFondoColores {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-image: url(./images/about_us/fondo_colores.png);
+    animation-name: amarillo;
+    animation-duration: 5s;
+    
 }
 
 }
