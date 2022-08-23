@@ -1,0 +1,763 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Muli', Arial, Helvetica, sans-serif;
+    
+
+}
+
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #0B79B7;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #0B79B7;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 18px;
+    text-align: center;
+    color: #0B79B7;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 16px;
+    text-align: center;
+    color: #0B79B7;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+    line-height: auto;
+}
+
+
+
+.callToAction a {
+
+    width: 100%;
+    height: 200px;
+
+   
+    
+}
+
+.botonRojo {
+
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding-top: 8px;
+    background-color: #D11A21;
+    margin-top: 40px;
+        
+}
+
+
+.botonRojo a
+{text-decoration: none;
+color: #fff;}
+
+
+
+.botonRojo:hover {
+
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding-top: 8px;
+    background-color: #0B79B7;
+    margin-top: 40px;
+        
+}
+
+.botonBlanco a
+{text-decoration: none;
+color: #D11A21;}
+
+
+.botonBlanco {
+
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding-top: 8px;
+    background-color: #ffffff;
+    border: 2px solid #D11A21;
+    margin-top: 40px;
+        
+}
+
+
+.botonBlanco:hover {
+
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding-top: 8px;
+    background-color: #0B79B7;
+    margin-top: 40px;
+        
+}
+
+
+
+
+/* ------------------------ Inicio Nav Bar ------------------------------*/
+
+
+.navbar-brand {
+
+    background-image: url(./images/logo_Entreprov_final_Entreprov-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 25px;
+
+}
+
+.nav-link {
+
+    color: #0B79B7 !important;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+#rojo {
+
+    text-decoration: none;
+    color: #D11A21 !important;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.navbar-toggler {
+
+    border: 1px solid #0B79B7;
+}
+
+.navbar {
+
+    margin-top: 20px;
+    border-top: solid #0B79B7 2px;
+    border-bottom: solid #0B79B7 2px;
+
+}
+
+
+/* ------------------------ Fin Nav Bar ------------------------------*/
+
+/* ---------inicio de section Scalable, Personal Marketing------------*/
+
+.container {
+
+    margin-top: 30px;
+}
+
+.serctorTextoMain {
+
+    height: 100%;
+    width: auto;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+}
+
+.serctorImagenMain {
+    height: 450px;
+    width: 100%;
+    background-image: url(./images/homepage/home_main_image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.logo {
+
+    height: 45px;
+    width: 100%; 
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+
+}
+
+
+
+.Cliente1 {
+
+    background-image: url(./images/homepage/tespo-logo-nav-01\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+   
+
+
+.Cliente2 {
+
+    background-image: url(./images/homepage/shirtmax-logo_large\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+.Cliente3 {
+
+    background-image: url(./images/homepage/svs.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+
+
+.Cliente4 {
+
+    background-image: url(./images/homepage/fresh-victor-red_1\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+.Cliente1:hover {
+
+    background-image: url(./images/homepage/tespo-logo-nav-01\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+
+}
+   
+
+
+.Cliente2:hover {
+
+    background-image: url(./images/homepage/shirtmax-logo_large\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+    
+}
+
+
+.Cliente3:hover {
+
+    background-image: url(./images/homepage/svs.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+
+}
+
+
+
+
+.Cliente4:hover {
+
+    background-image: url(./images/homepage/fresh-victor-red_1\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+
+}
+
+.sombra {
+
+    height: 10px;
+    width: 100%;
+    box-shadow: 0px 5px 4px #cbcbcb;
+}
+
+
+
+/* --------- fin de section Scalable, Personal Marketing ------------*/
+
+/* ------------- Inicio We’re a Team of Problem-Solvers ------------------*/
+
+
+.fondoAmarillo {
+
+    
+    height: 100%;
+    background-position: left;
+    background-position-y: 20px ;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-image: url("./images/homepage/bg_yellow_problem_solvers.png");
+    animation-name: amarillo;
+    animation-duration: 5s;
+
+}
+
+@keyframes amarillo {
+    0%{
+        transform: translateX(-500px);
+        opacity: 0;
+
+    }
+
+    100%{
+
+        transform: translateX(0px);
+        opacity: 1;
+
+    }
+}
+
+.header_seccion {
+
+    height: 120px;
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+.card {
+
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #d1d1d1;
+    height: 450px;
+    margin:auto;
+    margin-top: 20px;
+    width: 80%;
+
+}
+
+.card:hover {
+
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #d1d1d1;
+    height: 430px;
+    margin:auto;
+    margin-top: 20px;
+    width: 80%;
+    transform: scale(1.1 );
+    transition: all 0.5s;
+
+}
+
+
+
+
+/* ------------- Fin We’re a Team of Problem-Solvers ------------------*/
+
+
+.fondoRojo {
+
+    
+    height: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-image: url("./images/homepage/bg_red_clients.png");
+    border: none;
+    animation-name: rojo;
+    animation-duration: 5s;
+
+}
+
+
+
+@keyframes rojo {
+    0%{
+        transform: translateX(500px);
+        opacity: 0;
+
+    }
+
+    100%{
+
+        transform: translateX(0px);
+        opacity: 1;
+
+    }
+}
+
+.header_seccion2 {
+
+    width: auto;
+    height: 150px;
+    padding-top: 20px;
+    width: 200px;
+    margin: auto;
+
+}
+
+.imagen_testimonio{
+
+    background-image: url(./images/homepage/louis_katsaros.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+
+.carousel {
+
+    width: 100%;
+    height: 400px;
+
+
+}
+
+.contenedor_testimonio {
+
+
+    width: 50%;
+    margin: auto;
+    
+ 
+}
+
+.carousel-indicators li {
+
+    background-color: #D11A21;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+/* ------------- inicio About Us ------------------*/
+
+
+.serctorImagenAboutUs {
+
+
+    height: 450px;
+    width: 100%;
+    background-image: url(./images/about_us/who_we_are_mainaboutus.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+
+.fondoColores {
+    height: 100%;
+    background-repeat: repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-image: url(./images/about_us/fondo_colores.png);
+    animation-name: amarillo;
+    animation-duration: 5s;
+
+    
+}
+
+.contenedor_paginas {
+    width: 100%;
+    height: auto;
+    margin: auto;  
+    display: grid;
+    justify-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+/* ------------- fin About Us ------------------*/
+
+/* ------------- inicio book a call ------------------*/
+
+.formulario {
+
+    width: auto;
+    border: 2px solid #D11A21;
+    border-radius: 1%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+
+}
+
+.formularioEstilo {
+
+
+    height: 500px;
+    width: 100%;
+    margin: auto;   
+
+
+
+}
+
+/* ------------- fin book a call ------------------*/
+/* ------------- inicio Recursos ------------------*/
+
+.serctorImagenResources {
+    height: 350px;
+    width: 100%;
+    background-image: url(./images/resources/main_resources.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.video {
+    padding: 10px;
+
+}
+
+
+.nota1
+{
+    background-image: url(./images/ios-14-updates-and-email-privacy-1280x640.jpeg);
+    background-size: cover;
+    width: auto;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.nota2
+{
+    background-image: url(./images/retail-marketing-scaled-2560x1280.jpeg);
+    background-size: cover;
+    width: auto;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.nota3
+{
+    background-image: url(./images/EMAIL-HEADER-02-01-1146x573.jpeg);
+    background-size: cover;
+    width: auto;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+
+.card_nota {
+
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #d1d1d1;
+    height: 100%;
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+/* ------------- fin Recursos ------------------*/
+
+/* ------------- inicio Footer ------------------*/
+
+.imagenFooter {
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/homepage/alex_footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+
+
+.datos {
+
+  
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color: #0B79B7;
+
+}
+
+
+
+.datosContacto {
+
+    width: 100%;
+    height: auto;
+
+}
+
+.textoFooter {
+
+    color: #fff;
+    text-align: left;
+    padding-left: 40px;
+}
+
+
+.inputNewsletter{
+
+    width: 100%;
+    height: auto;
+    color: #fff;
+    
+}
+
+
+
+
+/* ------------- Fin Footer ------------------*/
+
+
+/* ------------- inicio media Tablet ------------------*/
+
+
+@media only screen and (min-width:600px) and (max-width:820px) {
+
+
+ .card {
+
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        height: 250px;
+    
+}
+
+.fondoRojo {
+
+    
+    height: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/homepage/bg_red_clients.png");
+    border: none;
+    animation-name: rojo;
+    animation-duration: 5s;
+
+}
+
+
+
+
+@keyframes rojo {
+    0%{
+        transform: translateX(500px);
+        opacity: 0;
+
+    }
+
+    100%{
+
+        transform: translateX(0px);
+        opacity: 1;
+
+    }
+}
+
+.contenedor_testimonio   {
+
+    height: 150px;
+    width: 100%;
+    padding-top: 50px;
+} 
+
+.carousel {
+
+    margin: auto;
+    height: 300px;
+}
+
+
+
+
+}
+
+
+/* ------------- fin media Tablet ------------------*/
+
+/* ------------- Inicio media Desktop ------------------*/
+
+
+@media only screen and (min-width:1024px) {
+
+    .fondoRojo {
+
+    
+        height: 100%;
+        background-position: right;
+        background-position-y: 20px ;
+        background-repeat: no-repeat;
+        background-size: 800px;
+        background-image: url("./images/homepage/bg_red_clients.png");
+        animation-name: rojo;
+        animation-duration: 5s;
+    
+    }
+
+
+    .carousel {
+
+        width: 80%;
+        height: 500px;
+        padding-top: 80px;
+
+    
+    }
+
+
+
+
+
+}
+
+/* ------------- Fin media Desktop ------------------*/
