@@ -38,7 +38,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
+                <a class="nav-link" href="./about_us.html">About us</a>
             </li>
 
             <li class="nav-item">
@@ -50,7 +50,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" id="rojo" href="./book_a_call.html">Book a Call!</a>
+                <a class="nav-link" id="rojo" href="#">Book a Call!</a>
             </li>
 
         </ul>
@@ -68,43 +68,62 @@
 <!---------------------------- fin de menu ------------------------------->
   
 
-    <!-- formu book a call -->
+
 	<section class="container">
         <div class="row">
 
-            <div  class="container-fluid formulario">
+            <header class="serctorTextoMain col-sm-12 col-lg-6">
+
+                <div class="textos">
+    
+                <h2>Start Today!</h2>
+            
+                <h3>Your business amplified</h3>
+                <p>If you’re ready for an intelligent, intentional email marketing strategy, our team is here to help you maximize the ROI potential of your email list. 
+                </p>
+    
+                </div> 
+
+                <div class="imagenFooter col-sm-12"></div> 
+            
+            
+            </header>
+    
+
+
+    <!-- formu book a call -->
+
+
+            <div  class="container formulario col-sm-12 col-lg-6">
                 <fieldset>
                     <h2>Complete the form</h2>
 
 			    <form action="formulario_book_a_call" method="post" enctype="text/plain" class="formularioEstilo">
 
                     <label for="name">Name</label><br>
-				    <input type="text" placeholder="Your name here" required><br>
+				    <input type="text" placeholder="Your name here" required style="width: 100%;"><br>
 
                     <label for="company_name">Company Name</label><br>
-				    <input type="text" placeholder="Your Company Name here" required><br>
+				    <input type="text" placeholder="Your Company Name here" required style="width: 100%;"><br>
 
 				    <label for="email">Email</label><br>
-					<input type="email" name="email" required><br>
+					<input type="email" name="email" required style="width: 100%;"><br>
 
                     <label for="service">In which service you are interested at?</label><br>
 				    <select name="service" id="service" required> 
 					<option value="content_and_strategy">Content & Strategy</option>
 					<option value="tech_and_support">Tech Support</option>
 					<option value="data_analysis">Data Analysis</option>
-				    </select><br>
+				    </select><br><br>
 				
 				    <label for="details">How we can help you?</label><br>
-					<textarea placeholder="Give us more details on how we can help you." rows="4" cols="40"></textarea><br>
-
-                    <label for="call">Book a call!</label><br>
-                    <input type="datetime-local" id="date" name="date" min="2022-07-18T9:00" max="3050-07-25T17:00"><br>
+					<textarea placeholder="Give us more details on how we can help you." style="width: 100%;"></textarea><br><br>
                
 				
-				    <label for="newsletter">Do you want to subscribre to our Newsletter?</label><br>
-				    <input type="checkbox" name="acepta" value="1">
-				    <input type="submit" value="Submit">
-				    <input type="reset" value="Reset">
+				    <label for="newsletter">Subscribre to our Newsletter!</label>
+				    <input type="checkbox" name="acepta" value="1"><br>
+				    <input class="botonRojo" type="submit" value="Submit" style="padding-bottom: 7px; border: 0px; color:#fff;">
+				    <input class="botonBlanco" type="reset" value="Reset" style="padding-bottom: 7px; color: #D11A21;">
 			    </form>
 
                 </fieldset>  
@@ -120,6 +139,11 @@
     <div class="container">
 
         <div class="row">
+
+           
+        
+            
+           
 
             <div class="datos">
 

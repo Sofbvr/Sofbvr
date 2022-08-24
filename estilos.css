@@ -522,10 +522,11 @@ color: #D11A21;}
 
 .formulario {
 
-    width: auto;
+    width: 500px;
+    height: 100%;
     border: 2px solid #D11A21;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 
 
