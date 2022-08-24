@@ -556,6 +556,33 @@ color: #D11A21;}
 /* ------------- inicio Servicios ------------------*/
 /* ------------- inicio Servicios ------------------*/
 
+.ImagenContent {
+    height: 400px;
+    width: 100%;
+    background-image: url(./images/resources/content_resources.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.ImagenTech {
+    height: 400px;
+    width: 100%;
+    background-image: url(./images/resources/tech_resources.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.ImagenData {
+    height: 400px;
+    width: 100%;
+    background-image: url(./images/resources/data_resources.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
 
 .iconoTitulo {
 
