@@ -1,0 +1,53 @@
+
+
+.imagenFooter {
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/homepage/alex_footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+
+
+.datos {
+
+  
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: $colorPrimario;
+
+}
+
+
+
+.datosContacto {
+
+    width: 100%;
+    height: auto;
+
+
+}
+
+.textoFooter {
+
+    color: #fff;
+    text-align: left;
+    padding-left: 40px;
+
+}
+
+
+.inputNewsletter{
+
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 15px;
+
+
+    
+}
