@@ -51,3 +51,43 @@
 
     
 }
+
+.inputRedes {
+
+    width: 100%;
+    padding-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    display: flex;
+    background-color: #fff;
+}
+
+.contenedorRedes {
+
+
+    width: 100px;
+}
+
+
+$redes: (
+    youtube: #D11A21,
+    facebook: #3a5795,
+    instagram: #C25E30
+
+);
+
+@each $red, $color in $redes {
+
+    .social--#{$red} {
+        color: $color;     
+    }
+}
+
+@each $red, $color in $redes {
+
+    .social--#{$red}:hover {
+        color: $color;    
+    }
+}
+

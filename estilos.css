@@ -72,6 +72,44 @@
   padding-top: 15px;
 }
 
+.inputRedes {
+  width: 100%;
+  padding-left: 75px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  display: flex;
+  background-color: #fff;
+}
+
+.contenedorRedes {
+  width: 100px;
+}
+
+.social--youtube {
+  color: #D11A21;
+}
+
+.social--facebook {
+  color: #3a5795;
+}
+
+.social--instagram {
+  color: #C25E30;
+}
+
+.social--youtube:hover {
+  color: #D11A21;
+}
+
+.social--facebook:hover {
+  color: #3a5795;
+}
+
+.social--instagram:hover {
+  color: #C25E30;
+}
+
 * {
   padding: 0;
   margin: 0;
