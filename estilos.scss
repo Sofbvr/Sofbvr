@@ -101,29 +101,18 @@ color: $colorSecundario;}
 
 .botonBlanco {
 
-    width: 170px;
-    height: 40px;
-    border-radius: 20px;
-    margin: auto;
-    text-align: center;
-    padding-top: 8px;
+    @extend .botonRojo;
     background-color: #ffffff;
     border: 2px solid $colorSecundario;
-    margin-top: 40px;
         
 }
 
 
 .botonBlanco:hover {
 
-    width: 170px;
-    height: 40px;
-    border-radius: 20px;
-    margin: auto;
-    text-align: center;
-    padding-top: 8px;
+    @extend .botonRojo;
+    border: 2px solid $colorSecundario;
     background-color: $colorPrimario;
-    margin-top: 40px;
         
 }
 

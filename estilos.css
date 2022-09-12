@@ -161,7 +161,7 @@ p {
   height: 200px;
 }
 
-.botonRojo {
+.botonRojo, .botonBlanco:hover, .botonBlanco {
   width: 170px;
   height: 40px;
   border-radius: 20px;
@@ -172,12 +172,12 @@ p {
   margin-top: 40px;
 }
 
-.botonRojo a {
+.botonRojo a, .botonBlanco:hover a, .botonBlanco a {
   text-decoration: none;
   color: #fff;
 }
 
-.botonRojo:hover {
+.botonRojo:hover, .botonBlanco:hover {
   width: 170px;
   height: 40px;
   border-radius: 20px;
@@ -194,26 +194,13 @@ p {
 }
 
 .botonBlanco {
-  width: 170px;
-  height: 40px;
-  border-radius: 20px;
-  margin: auto;
-  text-align: center;
-  padding-top: 8px;
   background-color: #ffffff;
   border: 2px solid #D11A21;
-  margin-top: 40px;
 }
 
 .botonBlanco:hover {
-  width: 170px;
-  height: 40px;
-  border-radius: 20px;
-  margin: auto;
-  text-align: center;
-  padding-top: 8px;
+  border: 2px solid #D11A21;
   background-color: #0B79B7;
-  margin-top: 40px;
 }
 
 /* ---------inicio de section Scalable, Personal Marketing------------*/
